@@ -1,0 +1,147 @@
+html {
+    font-size: 16px;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', 'Lato', 'Roboto', 'Arial';
+}
+
+body {
+    background-color: #d0d0d0;
+}
+
+/* navbar section */
+
+header nav {
+    background-color: hsla(0, 0%, 0%, 0.5);
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.1);
+    top: 0;
+    width: 100%;
+}
+
+header nav ul {
+    display: flex;
+    justify-content: flex-end;
+    list-style-type: none;
+}
+
+header li {
+    height: 50px;
+}
+
+header li:first-child {
+    margin-right: auto;
+}
+
+header a {
+    text-decoration: none;
+    height: 100%;
+    display: flex;
+    font-size: 1.2rem;
+    text-shadow: 1px 1px 2px #b0b0b0;
+    color: #fff;
+    align-items: center;
+    padding: 0px 20px;
+}
+
+header a:hover {
+    color: #a8a0ff;
+    text-shadow: 1px 1px 5px #1000f3;
+}
+
+/* hero section */
+#hero {
+    width: 100%;
+    height: 100%;
+    line-height: 1.2;
+}
+
+#hero .banner {
+    background-image: url("https://cdn.pixabay.com/photo/2015/10/29/14/32/business-1012449_1280.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100%;
+    min-width: 100%;
+    padding: 20px 0;
+}
+
+#hero .content {
+    background-color: hsla(255, 100%, 100%, 60%);
+    width: 90%;
+    margin: 30px auto;
+    padding: 100px 20px;
+    border-radius: 15px 0 15px 0;
+}
+
+#hero h1 {
+    font-size: 3rem;
+}
+
+/* staff section */
+/* photos from https://www.pexels.com/search/headshot/ */
+
+#staff {
+    height: 100%;
+    width: 100%;
+    padding: 10px 0;
+    padding-bottom: 5rem;
+    display: block;
+    text-align: center;
+    background-image: url("https://images.pexels.com/photos/2116721/pexels-photo-2116721.jpeg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    line-height: 1.2;
+}
+
+#staff .staff-list {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+#staff h1 {
+    font-size: 4rem;
+    margin: 0.45em auto;
+    color: #000;
+    text-shadow: 1px 1px 2px #fff;
+}
+
+#staff h3 {
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
+#staff p {
+    color: #000;
+    font-size: 1.2rem;
+}
+
+#staff .staff-member {
+    background-color: #fff;
+    height: 570px;
+    margin: 20px auto;
+    padding: 0px 15px;
+    border-radius: 0px 20px 20px;
+    box-shadow: 1px 1px 5px hsla(0, 0%, 0%, 0.8);
+}
+
+#staff img {
+    margin: 1.05rem auto;
+    height: auto;
+    width: 300px;
+}
+
+/* footer section */
+footer {
+    display: flex;
+    flex-direction: column;
+}
+
+footer .content {
+    margin: 10px 5px;
+    font-size: 0.875rem;
+}
