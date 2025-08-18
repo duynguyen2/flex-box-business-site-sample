@@ -1,9 +1,12 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
 html {
     font-size: 16px;
     height: 100%;
     width: 100%;
-    margin: 0;
-    padding: 0;
     font-family: 'TikTok Sans', 'Inter', 'Lato', 'Roboto', 'Arial';
 }
 
@@ -227,4 +230,18 @@ footer {
 footer .content {
     margin: 10px 5px;
     font-size: 0.875rem;
+}
+
+@media (max-width: 700px) {
+  .product-list {
+    flex-direction: column;
+    align-items: center;
+  }
+  #staff .staff-list {
+    flex-direction: column;
+    align-items: center;
+  }
+  #hero h1, #products h1, #staff h1 {
+    font-size: 2rem;
+  }
 }
